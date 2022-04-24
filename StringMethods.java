@@ -27,13 +27,13 @@ public class StringMethods {
 	String text1 = "Testleaf is situated in twin towers teynampet";
 	String[] words = text1.split(" ");
 	for(String wordTort : words) {
-		if(wordTort.startsWith("T"))
+		if(wordTort.startsWith("T") || wordTort.startsWith("t"))
 		{
 			System.out.println(wordTort);
 		}
-		else if (wordTort.startsWith("t")) {
-			System.out.println(wordTort);
-		}
+		/*
+		 * else if (wordTort.startsWith("t")) { System.out.println(wordTort); }
+		 */
 	}
 	
 	}
